@@ -40,6 +40,7 @@ You can toggle different appliances ON/OFF and instantly see total power, energy
 ---
 
 ## 📸 Preview
+![Smart Energy Tracker Screenshot]()
 
 ---
 
