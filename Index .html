@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Energy Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>⚡ Smart Energy Tracker</h1>
+    <p>Monitor and calculate your energy usage in real-time</p>
+  </header>
+
+  <main>
+    <section class="devices">
+      <div class="device" data-watt="60">
+        <h3>💡 Light Bulb</h3>
+        <p>60W</p>
+        <button class="toggle">Turn ON</button>
+      </div>
+      <div class="device" data-watt="120">
+        <h3>🌀 Fan</h3>
+        <p>120W</p>
+        <button class="toggle">Turn ON</button>
+      </div>
+      <div class="device" data-watt="1000">
+        <h3>❄️ Air Conditioner</h3>
+        <p>1000W</p>
+        <button class="toggle">Turn ON</button>
+      </div>
+      <div class="device" data-watt="200">
+        <h3>📺 TV</h3>
+        <p>200W</p>
+        <button class="toggle">Turn ON</button>
+      </div>
+    </section>
+
+    <section class="stats">
+      <h2>Energy Summary</h2>
+      <p>Total Power: <span id="totalPower">0</span> W</p>
+      <p>Energy Used: <span id="energyUsed">0.00</span> Wh</p>
+      <p>Cost (₹): <span id="cost">0.00</span></p>
+      <canvas id="energyChart" width="400" height="200"></canvas>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by <strong>Md Zulquarnain Ansari</strong> | Engineering Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
