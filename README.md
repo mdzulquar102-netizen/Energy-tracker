@@ -6,11 +6,6 @@ You can toggle different appliances ON/OFF and instantly see total power, energy
 
 ---
 
-## 🚀 Live Demo
-🔗 **[View on GitHub Pages](https://mdzulquar102-netizen.github.io/energy-tracker/)** 
-
----
-
 ## 🧠 Features
 - 🟢 Toggle devices ON/OFF (Light, Fan, AC, TV)
 - ⚙️ Real-time total power calculation (Watts)
@@ -45,8 +40,6 @@ You can toggle different appliances ON/OFF and instantly see total power, energy
 ---
 
 ## 📸 Preview
-*(Add a screenshot of your website here once it’s live)*  
-Example:
 
 ---
 
